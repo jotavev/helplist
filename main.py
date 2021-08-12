@@ -14,4 +14,6 @@ for i in range(len(cores)):
     if length != len(cores):
         length += 1
         
+resultado = ', '.join(resultado)
+
 print(resultado)
