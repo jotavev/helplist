@@ -11,8 +11,7 @@ for i in range(len(cores)):
     if apd == "y":
         resultado.append(cores[length])
         
-    if length != len(cores):
-        length += 1
+    length += 1
         
 resultado = ', '.join(resultado)
 
